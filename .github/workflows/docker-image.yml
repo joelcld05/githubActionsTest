@@ -19,7 +19,7 @@ jobs:
       run: docker build -t app  .
     
     - name: Run the Docker container
-      run: docker run -it --rm --name running-app app
+      run: docker run --name running-app app
 
     - name: Run the Docker container
       run: docker stop running-app
