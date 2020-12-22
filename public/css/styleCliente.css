@@ -1,0 +1,8 @@
+.row .col .logoCliente{
+	background: url(../img/Super99logo.png);
+	width: 100%;
+	height: 10vh;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
